@@ -10,7 +10,7 @@ Como la idea de nuestro tablero es que mediante el uso de Threads uno o más  us
 
 
 
-## Nuestro Logo :
+## Logo :
 
 ![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/logo.png)
 
