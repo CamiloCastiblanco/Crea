@@ -9,11 +9,7 @@ Como la idea de nuestro tablero es que mediante el uso de Threads uno o más  us
 
 
 ## Nuestro Logo :
-![logoEdit.png](/.attachments/logoEdit-21ef0baa-199e-4f20-9e94-af6ebb9dcb02.png)
-
-##Inicio de sesión:
-
-![ini ses.png](/.attachments/ini%20ses-1b876bb3-f06f-443e-a139-a239dc6b83c7.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/logo.png)
 
 ## Ideas del diseño de la interfaz de la aplicacíon.
 
@@ -32,6 +28,3 @@ Como la idea de nuestro tablero es que mediante el uso de Threads uno o más  us
 ## Diagrama de Clases y E-R
 ![img7.png](/.attachments/img7-05abace4-41a5-4cc7-a21e-0a4cd08d11cd.png)
 
-## Diagrama de Despliegue
-
-![image.png](/.attachments/image-80027010-04ca-4462-bb4c-98f933a4aa22.png)
