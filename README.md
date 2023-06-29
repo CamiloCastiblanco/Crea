@@ -17,7 +17,7 @@ Permite tambien el combatir el aburrimiento al mismo tiempo que se desarrollan h
 
 ## Ideas del diseño de la interfaz de la aplicacíon.
 
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/img10.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/img9.png)
 
 
 ## Historias de Usuario
