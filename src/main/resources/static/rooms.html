@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crea Rooms</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/css/styles2.css">
+</head>
+
+<body>
+<div class="login-box">
+  <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/09/how-to-draw-hands-1.jpg" class="avatar" alt="Avatar Image">
+  <h1>Salas </h1>
+  <form action="/index">
+
+    <label for="username">Buscar una sala</label>
+    <input type="text" id="nombreS" name="nombreS" placeholder="Escriba sala a crear">
+    <a type="button" class="fcc-btn" href="/game.html" onclick="getname();"> Crear sala</a>
+    <a href=""></a>
+    <div style="
+    margin-bottom: 20px;
+    ">
+
+        </div>
+        <a id="buttona" type="button" class="fcc-btn" href="/game.html" onclick="addingUserToRoom();"> Sala A</a>
+        <div id="rooma" style="margin-bottom: 20px;"></div>
+    <script>function addingUserToRoom(){
+              console.log('Estan oprimiendo el boton');
+              let file = "/aRooms?name=" +"'"+localStorage.getItem("user")+"'&rooms=" + "Sala A "+"";
+              localStorage.setItem("key","Sala A");
+              console.log("file " + file);
+              fetch (file,{method:'POST'})
+                  .then(x => x.text())
+                  .then(y =>  document.getElementById("rooma").innerHTML = y)
+
+              }</script>
+    </form>
+    <a id="buttonb" type="button" class="fcc-btn" href="/game.html" onclick="addingUserToRoomB();"> Sala B</a>
+    <div id="roomb" style="margin-bottom: 20px;"></div>
+    <script>function addingUserToRoomB(){
+              console.log('Estan oprimiendo el boton');
+              let file = "/aRooms?name=" +"'"+localStorage.getItem("user")+"'&rooms=" + "Sala B "+"";
+              console.log("file " + file);
+              localStorage.setItem("key","Sala B");
+              fetch (file,{method:'POST'})
+                  .then(x => x.text())
+                  .then(y =>  document.getElementById("roomb").innerHTML = y)
+
+              }</script>
+
+    <a id="buttonc" type="button" class="fcc-btn" href="/game.html" onclick="addingUserToRoomC();"> Sala C</a>
+    <div id="roomc" style="margin-bottom: 20px;"></div>
+    <script>function addingUserToRoomC(){
+              localStorage.setItem("key","Sala C");
+              console.log('Estan oprimiendo el boton');
+              let file = "/aRooms?name=" +"'"+localStorage.getItem("user")+"'&rooms=" + "Sala C "+"";
+              console.log("file " + file);
+              fetch (file,{method:'POST'})
+                  .then(x => x.text())
+                  .then(y =>  document.getElementById("roomc").innerHTML = y)
+
+              }</script>
+
+
+    <a id="buttond" type="button" class="fcc-btn" href="/game.html" onclick="addingUserToRoomD();"> Sala D</a>
+    <div id="roomd"></div>
+    <script>function addingUserToRoomD(){
+              localStorage.setItem("key","Sala D");
+              console.log('Estan oprimiendo el boton');
+              let file = "/aRooms?name=" +"'"+localStorage.getItem("user")+"'&rooms=" + "Sala D "+"";
+              console.log("file " + file);
+              fetch (file,{method:'POST'})
+                  .then(x => x.text())
+                  .then(y =>  document.getElementById("roomd").innerHTML = y)
+
+              }</script>
+
+    </div>
+
+
+</body>
+
+</html>
