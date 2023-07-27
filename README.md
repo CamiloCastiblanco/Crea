@@ -31,3 +31,8 @@ Permite tambien el combatir el aburrimiento al mismo tiempo que se desarrollan h
 ## Diagrama de Clases y E-R
 
 ![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/diagrama%20de%20clases.png)
+
+## Diagrama de Componentes
+
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
