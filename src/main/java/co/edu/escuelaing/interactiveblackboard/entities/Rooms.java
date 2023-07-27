@@ -35,7 +35,7 @@ public class Rooms {
     }
 
     public void settingUser(User user, String key) {
-        List<User> list = new ArrayList<>(salasDef.get(key));
+        List<User> list = (salasDef.get(key));
         list.add(user);
         salasDef.put(key, list); 
         for (User u : list) {
@@ -67,22 +67,13 @@ public class Rooms {
             if (users.size() == 1 && users.contains(user)) {
                 System.out.println("Es pintor");
                 users.forEach(x -> x.setPintor(true));
-            } else {
-                System.out.println(" NOOO Es pintor");
-                int pos = users.indexOf(user);
-                users.get(pos).setPintor(false);
             }
             System.out.println("Usuario agregado: " + user.getName());
     }
 
     public boolean numeroMinimoDePersonas(String key){
-        boolean flag = false;
-        if(numeroDePersonas(key)<=2){
-            flag = false;
-        }else{
-            flag = true;
-        }
-        return flag;
+
+        return numeroDePersonas(key)< 2;
     }
     public int numeroDePersonas(String key){
         return salasDef.get(key).size();

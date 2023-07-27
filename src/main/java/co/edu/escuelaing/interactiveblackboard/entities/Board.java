@@ -23,24 +23,13 @@ public class Board {
     }
     public void setUsuario( User user) {
         if(!(users.contains(user))){
-            if(users.size() == 0){
-                System.out.println("Es pintor");
-                users.add(user);
-                users.forEach(x -> x.setPintor(true));
-            }else{
-                System.out.println(" NOOO Es pintor");
-                users.add(user);
-                int pos = users.indexOf(user);
-                users.get(pos).setPintor(false);
-            }
+            users.add(user);
             System.out.println("Usuario agregado: " + user.getName());
         }
         
     }
 
     public boolean changingPintor(String name){
-        System.out.println("ENTREEE");
-        System.out.println("NOMBRE PINTOR " + name);
         boolean flag = false;
         for(int i = 0 ; i<users.size();i++){
             if(users.get(i).getName().equals(name)){
@@ -49,11 +38,8 @@ public class Board {
                     if(i<users.size()-1){
                         users.get(i+1).setPintor(true);
                     }else{
-                        users.get(i).setPintor(false);
+                        users.get(0).setPintor(true);
                     }
-                    users.get(i).getPintor();
-                }else{
-                    users.get(i).getPintor();
                 }
             }            
         }

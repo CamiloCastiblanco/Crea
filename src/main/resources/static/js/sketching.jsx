@@ -101,7 +101,7 @@ class BBCanvas extends React.Component {
       pintor: "No sabemos",
       puntaje: 0
     };
-    // Es el cambio echo en el tablero
+    // Es el cambio hecho en el tablero
     let wsreference = this.comunicationWS;
     this.sketch = function (p) {
       let x = 100;
@@ -191,7 +191,7 @@ class BBCanvas extends React.Component {
       console.log("El numero de personas actual es suficiente para jugar");
     } else {
       alert("El numero de personas no es suficiente para jugar");
-      this.timerID = setInterval(() => this.canPlay(), 10000);
+      this.timerID = setInterval(() => this.canPlay(), 1000);
     }
   }
 
@@ -216,7 +216,7 @@ class BBCanvas extends React.Component {
     return (
       <div>
         <h5>{this.state.pintor}</h5>
-        <h6> numero de puntos del jugador</h6>
+        <h6> Numero de puntos del jugador</h6>
         <h7> {this.state.puntaje} </h7>
       </div>
     );
