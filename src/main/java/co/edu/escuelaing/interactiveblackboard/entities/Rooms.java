@@ -63,7 +63,12 @@ public class Rooms {
     public void setSalasDef(HashMap<String, List<User>> salasDef) {
         this.salasDef = salasDef;
     }
-
+    
+    /**
+    * Método para asignar un pintor a la sala, comienza siendo el primero que ingreso a la sala y luego va rotando el turno según el orden de ingreso a la misma
+    * @param: User user, String key
+    * @return void
+    */
     public void settingPintor(User user, String key ) {
         List<User> users = new ArrayList<>(salasDef.get(key));
             if (users.size() == 1 && users.contains(user)) {
@@ -76,8 +81,12 @@ public class Rooms {
             }
             System.out.println("Usuario agregado: " + user.getName());
     }
-
-     public boolean numeroMinimoDePersonas(String key){
+    /**
+    * Método para garantizar que una sala tendrá más de 1 jugador y no hacer el juego aburrido
+    * @param: String key
+    * @return boolean
+    */
+    public boolean numeroMinimoDePersonas(String key){
         boolean flag = false;
         if(numeroDePersonas(key)<=2){
             flag = false;
@@ -97,6 +106,7 @@ public class Rooms {
 
     public void setPuntaje(Puntaje puntaje) {
         this.puntaje = puntaje;
+
     }
 
 
