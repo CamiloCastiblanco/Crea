@@ -37,58 +37,32 @@ Permite tambien el combatir el aburrimiento al mismo tiempo que se desarrollan h
 ![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
 
 ## Clases importantes
-- Tal
+
+- Board (Para más información favor dirigirse a la ruta "src/main/java/co/edu/escuelaing/interactiveblackboard/entities")
   
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Board.png)
 
-- Tal
+- ChatController
 
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/ChatController.png)
 
-- Tal
+- DrawController (Para más información favor dirigirse a la ruta "src/main/java/co/edu/escuelaing/interactiveblackboard/controllers")
   
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/DrawController.png)
 
-- Tal
-
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
-
-- Tal
+- Puntaje (Para más información favor dirigirse a la ruta "src/main/java/co/edu/escuelaing/interactiveblackboard/entities")
   
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Puntaje.png)
 
-- Tal
+- Rooms (Para más información favor dirigirse a la ruta "src/main/java/co/edu/escuelaing/interactiveblackboard/entities")
+
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Rooms1.png)
+
   
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Rooms2.png)
 
-- Tal
 
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+- sketching.jsx
+Al ser tan extenso el código es preferible remitirse a la ruta donde se encuentra alojado "/src/main/resources/static/js"
 
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
 
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
-
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
-
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
-
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
-
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
-
-- Tal
-  
-![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
