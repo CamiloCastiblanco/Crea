@@ -3,6 +3,9 @@ package co.edu.escuelaing.interactiveblackboard.entities;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+/**
+ * Puntaje class, esta clase está encargada de manejar la lógica de los puntos y como son asignados luego de haber adivinado la palabra  
+ */
 
 public class Puntaje {
     HashMap<String, String> puntaje;
@@ -18,13 +21,18 @@ public class Puntaje {
         jugadorPuntos.add(new ArrayList<String>());
         jugadorPuntos.add(new ArrayList<String>());
     }
-
+    /**
+    * Método para asignar una palabra para adivinar luego de haber empezado el juego, verificando primero si la palabra que escribió el usuario es la correcta y asigna puntos
+    * en el caso contrario no suma los puntos y sigue estando la misma palabra del principio
+    * @param: String wordChat, String name
+    * @return boolean
+    */
     public int setWord(String wordChat, String name) {
         int memoria = 0;
         int pos = 0;
-        System.out.println(" Entra setWord");
+        
         if (jugadorPuntos.get(0).contains(name) && jugadorPuntos.get(1).contains("No tiene puntos de momento")) {
-            System.out.println("entra al if grande");
+            
             if (wordChat.equals(word)) {
                 System.out.println("las palabras son iguales!");
                 for (User u : users) {
@@ -39,12 +47,11 @@ public class Puntaje {
                     }
                 }
             } else {
-                System.out.println("entra al else");
+                
                 if (!(wordChat.equals(word))) {
                     System.out.println("las palabras NO son iguales!");
                     for (User u : users) {
-                        pos = jugadorPuntos.get(0).indexOf(name);
-                        System.out.println("posicion del jugador " + pos); // error encontrado aquí
+                        pos = jugadorPuntos.get(0).indexOf(name);                        
                         if (u.getName().equals(jugadorPuntos.get(0).get(pos))) {
                             System.out.println("Se encontro el el usuario en la lista con el de la matriz");
                             memoria = u.getPuntaje();
@@ -57,7 +64,8 @@ public class Puntaje {
         }
         return memoria;
     }
-
+    
+    
     private int tienePuntos() {
         int cont = jugadorPuntos.get(0).size();
         for (int i = 0; i < jugadorPuntos.get(0).size(); i++) {

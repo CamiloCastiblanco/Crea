@@ -1,5 +1,7 @@
 package co.edu.escuelaing.interactiveblackboard.entities;
-
+/**
+ * ChatMessage class, esta clase está encargada de manejar la lógica del chat y cada uno de sus mensajes 
+ */
 public class ChatMessage {
     private String content;
     private String sender;

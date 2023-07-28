@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 import java.util.*;
 
+/**
+ * Color class, esta clase solo está encargada de mantener una lista de colores para el jugador 
+ */
 public class Color {
     private static List<String> rgb;
 

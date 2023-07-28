@@ -1,7 +1,9 @@
 package co.edu.escuelaing.interactiveblackboard.entities;
 
 import org.springframework.stereotype.Component;
-
+/**
+ * Componente principal 
+ */
 @Component
 public class Crea {
     private Rooms rooms;

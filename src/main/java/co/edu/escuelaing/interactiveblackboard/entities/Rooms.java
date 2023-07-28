@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-
+/**
+ * Rooms class, esta clase está encargada de manejar la lógica de las salas y como es asignado el tablero de cada sala, los usuarios de la misma y el pintor de esta.  
+ */
 public class Rooms {
 
     private HashMap<String, List<User>> salasDef;
@@ -41,10 +43,10 @@ public class Rooms {
         for (User u : list) {
             try {
                 System.out.println("llave " + key);
-                System.out.println("entro al for");
+                
                 System.out.println(u.getName());
             } catch (Exception e) {
-                System.out.println("entro a error ");
+                System.out.println("Error");
             }
         }
         settingPintor(user, key);

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Board class, esta clase está encargada de manejar la lógica de cada tablero 
+ */
 public class Board {
     private List<User> users;
     private List<Color> colors;
@@ -28,7 +31,11 @@ public class Board {
         }
         
     }
-
+    /**
+    * Método para cambiar al pintor luego de haber terminado su turno
+    * @param: String name
+    * @return boolean
+    */
     public boolean changingPintor(String name){
         boolean flag = false;
         for(int i = 0 ; i<users.size();i++){

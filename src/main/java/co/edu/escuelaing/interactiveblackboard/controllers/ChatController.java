@@ -9,10 +9,17 @@ import co.edu.escuelaing.interactiveblackboard.entities.Crea;
 import co.edu.escuelaing.interactiveblackboard.entities.User;
 
 
-
+/**
+ * Controlador para manejar el tema de enviar los mensajes y que se le envíen a todos los jugadores de la sala
+ */
 @Controller
 public class ChatController { 
 
+    /**
+     * Método para que se registre el mensaje en cada una de las sesiones de los jugadores 
+     * @param: @Payload ChatMessage
+     * @return: ChatMessage
+     */
     @MessageMapping("/chat.register")
     @SendTo("/topic/public")
     public ChatMessage register(@Payload ChatMessage chatMessage, SimpMessageHeaderAccessor headerAccessor) {
@@ -22,7 +29,11 @@ public class ChatController {
         ));
         return chatMessage;
     }
-
+    /**
+     * Método para que todas las personas puedan ver el mensaje que cada uno de los jugadores envía a excepción del pintor
+     * @param: @Payload ChatMessage
+     * @return: ChatMessage
+     */
     @MessageMapping("/chat.send")
     @SendTo("/topic/public")
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
