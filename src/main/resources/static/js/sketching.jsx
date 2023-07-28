@@ -189,7 +189,9 @@ class BBCanvas extends React.Component {
     if (jugar) {
       this.timerID = setInterval(() => this.canPlay(), 100000000000000);
       console.log("El numero de personas actual es suficiente para jugar");
-    } 
+    }else {      
+      this.timerID = setInterval(() => this.canPlay(), 10000);
+    }
   }
 
   settingUserToChat() {
