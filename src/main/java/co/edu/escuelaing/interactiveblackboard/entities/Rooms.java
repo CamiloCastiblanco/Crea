@@ -73,7 +73,7 @@ public class Rooms {
 
     public boolean numeroMinimoDePersonas(String key){
 
-        return numeroDePersonas(key)< 2;
+        return numeroDePersonas(key) >= 2;
     }
     public int numeroDePersonas(String key){
         return salasDef.get(key).size();
