@@ -36,6 +36,59 @@ Permite tambien el combatir el aburrimiento al mismo tiempo que se desarrollan h
 
 ![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
 
+## Clases importantes
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
 
+- Tal
 
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
 
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
+
+- Tal
+  
+![img](https://github.com/CamiloCastiblanco/Crea/blob/main/img/Diagrama%20de%20componentes.png)
